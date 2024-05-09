@@ -1,4 +1,7 @@
 @import url("(https://fonts.google.com/specimen/Outfit)");
+title{
+    visibility: hidden;
+}
 body{
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
@@ -52,7 +55,7 @@ body{
     font-family: "(https://fonts.google.com/specimen/Outfit)";
     color: hsl(215, 32%, 30%);
     font-weight: 600;
-    display: flex price;
+    display: inline-flex;
 }
 .creator {
     margin-top: 20px;
@@ -64,10 +67,15 @@ body{
     text-align: center; 
     color: hsl(228, 45%, 44%); 
     margin-top: 50%;
-    display: flex;
+    display: none;
 }
 .image{
   object-fit: cover;
   object-position: center;
   object-fit: contain;
 }
+.img{
+    object-fit: cover;
+    object-position: center;
+    object-fit: contain;
+  }
